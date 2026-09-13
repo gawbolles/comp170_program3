@@ -318,6 +318,9 @@ public class DailyLog {
         System.out.println("Yellow Group Totals");
         System.out.println("           Time:  "+yellowTime);
         System.out.println("           Count: "+yellowCount);
+        System.out.println("-------------------------------------------------");
+        System.out.println("Longest Single Session: "+longestSingleSession + " minutes");
+        System.out.println("                  With: "+dogWithLongestSession);
         System.out.println("#################################################");
         scan.close();
     }
