@@ -304,24 +304,5 @@ public class DailyLog {
                 secondaryExitBool=false;
             }}
         }
-        //Output total time and count by color 
-        System.out.println("#################################################");
-        System.out.println("Blue Group Totals");
-        System.out.println("           Time:  "+blueTime);
-        System.out.println("           Count: "+blueCount);
-        System.out.println("Green Group Totals");
-        System.out.println("           Time:  "+greenTime);
-        System.out.println("           Count: "+greenCount);
-        System.out.println("Red Group Totals");
-        System.out.println("           Time:  "+redTime);
-        System.out.println("           Count: "+redCount);
-        System.out.println("Yellow Group Totals");
-        System.out.println("           Time:  "+yellowTime);
-        System.out.println("           Count: "+yellowCount);
-        System.out.println("-------------------------------------------------");
-        System.out.println("Longest Single Session: "+longestSingleSession + " minutes");
-        System.out.println("                  With: "+dogWithLongestSession);
-        System.out.println("#################################################");
-        scan.close();
     }
 }
